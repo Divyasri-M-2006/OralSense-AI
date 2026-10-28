@@ -12,12 +12,14 @@ import html
 import pandas as pd
 import streamlit as st
 
-from inference import (
-    CLASS_NAMES,
-    OralSenseEngine,
-    missing_model_files,
-    open_image,
-)
+from setup_models import setup_models
+
+@st.cache_resource(show_spinner="Preparing OralSense-AI models...")
+def prepare_models():
+    setup_models()
+    return True
+
+prepare_models()
 
 HERE = Path(__file__).resolve().parent
 st.set_page_config(
