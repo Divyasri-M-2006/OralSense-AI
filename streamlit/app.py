@@ -12,6 +12,13 @@ import html
 import pandas as pd
 import streamlit as st
 
+from inference import (
+    CLASS_NAMES,
+    OralSenseEngine,
+    missing_model_files,
+    open_image,
+)
+
 from setup_models import setup_models
 
 @st.cache_resource(show_spinner="Preparing OralSense-AI models...")
