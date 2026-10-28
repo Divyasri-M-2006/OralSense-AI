@@ -13,7 +13,10 @@ import pandas as pd
 import streamlit as st
 
 from inference import (
-    CLASS_NAMES, OralSenseEngine, missing_model_files, open_image,
+    CLASS_NAMES,
+    OralSenseEngine,
+    missing_model_files,
+    open_image,
 )
 
 HERE = Path(__file__).resolve().parent

@@ -32,3 +32,22 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Hugging Face cache
+.cache/
+.cache/huggingface/
+
+# Python testing and build files
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Local development files
+.vscode/
+
+# DINOv2 source downloaded automatically during deployment
+streamlit/models/dinov2_hub_source/
+streamlit/models/dinov2_hub_source_backup/
+streamlit/models/dinov2_download_temp/

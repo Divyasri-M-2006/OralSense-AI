@@ -31,7 +31,7 @@ Python | PyTorch | Scikit-learn | Streamlit | Jupyter Notebook | Kaggle
 Clone the repository:
 
 ```bash
-git clone https://github.com/AAQUIL-16/OralSense-AI.git
+git clone https://github.com/DIVYASRI-M-2006/OralSense-AI.git
 cd OralSense-AI
 ```
 
