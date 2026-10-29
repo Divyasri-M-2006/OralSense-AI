@@ -120,6 +120,7 @@ Grad-CAM provides visual explanations of the primary model's predictions.
 
 ## 📂 Project Structure
 
+```text
 OralSense-AI/
 │
 ├── .devcontainer/
@@ -144,7 +145,7 @@ OralSense-AI/
 │
 ├── .gitignore
 └── README.md
-
+```
 **Note:** Trained model weights are hosted externally on Hugging Face rather than committed directly to GitHub.
 
 ---
