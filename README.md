@@ -120,34 +120,30 @@ Grad-CAM provides visual explanations of the primary model's predictions.
 
 ## 📂 Project Structure
 
-```text
 OralSense-AI/
 │
-├── notebooks/
-│   ├── 01_Data_Preprocessing.ipynb
-│   └── 02_Model_Training.ipynb
-│
-├── streamlit/
-│   ├── app.py
-│   ├── inference.py
-│   ├── setup_models.py
-│   ├── requirements.txt
-│   │
-│   └── assets/
-│       └── styles.css
+├── .devcontainer/
+│   └── devcontainer.json
 │
 ├── models/
 │   └── README.md
 │
-├── assets/
-│   ├── architecture.png
-│   ├── confusion_matrix.png
-│   └── gradcam_results.png
+├── notebooks/
+│   ├── Data_Preprocessing.ipynb
+│   └── model_training.ipynb
+│
+├── streamlit/
+│   ├── .streamlit/
+│   │   └── config.toml
+│   ├── assets/
+│   │   └── styles.css
+│   ├── app.py
+│   ├── inference.py
+│   ├── requirements.txt
+│   └── setup_models.py
 │
 ├── .gitignore
-├── README.md
-└── LICENSE
-```
+└── README.md
 
 **Note:** Trained model weights are hosted externally on Hugging Face rather than committed directly to GitHub.
 
